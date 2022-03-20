@@ -1,0 +1,18 @@
+sortme = open("/Users/jacob/Documents/Sort me.txt", "r")
+sortmeArr = sortme.read().splitlines()
+sortme.close()
+
+check = 0
+
+while check < 1:
+    mode = input("Enter F to sort the file forwards alphabetically or R to sort backwards alphabetically")
+    if mode == 'F' or mode == 'R':
+        check = 1
+        
+if mode == 'F':
+    sortmeArr.sort()
+else:
+    sortmeArr.sort(reverse=True)    
+
+for elements in sortmeArr:
+    print(elements)
