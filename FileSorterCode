@@ -1,8 +1,0 @@
-sortme = open("/Users/jacob/Documents/Sort me.txt", "r")
-sortmeArr = sortme.read().splitlines()
-sortme.close()
-
-sortmeArr.sort()
-
-for elements in sortmeArr:
-    print(elements)
