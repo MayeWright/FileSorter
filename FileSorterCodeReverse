@@ -1,4 +1,4 @@
-sortme = open("/Users/jacob/Documents/Sort me.txt", "r")
+sortme = open("/ToSort/Sort Me.txt", "r")
 sortmeArr = sortme.read().splitlines()
 sortme.close()
 
