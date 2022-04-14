@@ -14,7 +14,7 @@ while check < 1:
         
 if mode == 'F':
     sortArr.sort()
-elif mode == 'R':
+elif mode == 'r':
     sortArr.sort(reverse=True)
 else:
     toSort = open("Test\\TestTextUnsorted.txt", "r")
